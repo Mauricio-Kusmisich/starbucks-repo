@@ -17,6 +17,37 @@ img {
     --bg-black: rgb(2, 2, 2);
 }
 
+.main {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 15px;
+}
+
+.main__title {
+    font-size: 55px;
+    line-height: 1.2;
+}
+
+.main__title--green {
+    color: var(--bg-header);
+}
+
+.main__container-text {
+    margin-top: 1px;
+}
+
+.main__description {
+    font-weight: bold;
+    line-height: 1.7;
+}
+
+.main__img {
+    display: none;
+}
+
+
+
 ::selection {
     background: var(--bg-header);
     color: var(--color-icons);
