@@ -218,6 +218,46 @@ img {
     border-radius: 50%;
 }
 
+.footer {
+    background: var(--bg-black);
+    display: flex;
+    flex-direction: column;
+    padding: 40px 15px ;
+}
+
+.footer__container-user {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.footer__login,
+.footer__register {
+    color: var(--bg-header);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer__container-icons {
+    margin-bottom: 15px;
+}    
+
+.footer__icon {
+    color: var(--bg-header);
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.footer__contact {
+    color: green;
+    font-size: 18px;
+    text-decoration: none;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
 
 
 
