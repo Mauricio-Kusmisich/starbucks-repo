@@ -40,5 +40,66 @@
             <img class="main__img" src="./imges/logos/starbucks_logogrande.png" alt="logo-header">
         </div>
     </main>
+    <section class="gallery">
+        <img class="gallery__img gallery__img--margin" src="./imges/imagenes/gallery-1.png" alt="galeria 1">
+        <img class="gallery__img" src="./imges/imagenes/gallery-2.png" alt="galeria 2">
+        <img class="gallery__img" src="./imges/imagenes/gallery-3.png" alt="galeria 3">
+    </section>
+    <!--formulario-->
+    <section class="contact">
+        <h2 class="contact__title">CONTACTANOS</h2>
+        <form class="contact__form">
+            <div class="contact__container-email">
+                <label class="contact__label">Correo Electronico</label>
+                <input class="contact__input" type="email" name="email_user" placeholder="Ingrese su correo electronico" required>
+            </div>
+            <div class="contact__container-comment">
+                <label class="contact__label-comment">Comentario</label>
+                <textarea class="contact__textarea" name="comment_user" placeholder="Ingrese su Comentario" required></textarea>
+            </div>
+            <input class="contact__form-btn" type="submit">
+        </form>
+    </section>
+    <!--cards-->  
+    <section class="cards">
+        <div class="cards__card">
+            <div class="cards__card-circle">5%</div>
+            <img class="cards__card-img" src="./imges/imagenes/card-1.png" alt="card 1">
+            <div class="cards__card-container-text">
+                <h4 class="cards__card-title">Aplicacion de <span class="cards__card-title--yellow">Starbucks</span></h4>
+                <p class="cards__card-description">Ahorre tiempo con click & collect y recolecte sus estrellas.
+                Hacer pedido nunca ha sido tan facil.</p>
+                <a href="#" class="cards__card-btn">Pruebelo</a>
+            </div>
+        </div>
+        <div class="cards__card">
+            <div class="cards__card-circle">10%</div>
+            <img  class="cards__card-img" src="./imges/imagenes/card-2.png" alt="card 2">
+            <div class="cards__card-container-text">
+                <h4 class="cards__card-title">Starbucks <span class="cards__card-title--yellow">Delivery</span></h4>
+                <p class="cards__card-description">Starbuks entrega su comida y bebida favorita en la puerta de su casa.</p>
+                <div class="cards__card-container-btn">
+                    <a href="#" class="cards__card-btn--big">Entrega por UberEat</a>
+                    <a href="#" class="cards__card-btn--small">Entrega por PedidosYa</a>
+                </div>
+            </div>
+        </div>
+        <div class="cards__card">
+            <img  class="cards__card-img"src="./imges/imagenes/card-3.png" alt="card 3">
+            <div class="cards__card-container-text">
+                <h4 class="cards__card-title">Novedades <span class="cards__card-title--yellow">Starbuscks</span></h4>
+                <p class="cards__card-description">Mantengase informado de nuestras ultimas novedades y actualizaciones.</p>
+                <a href="#" class="cards__card-btn">Más Informacion</a>
+            </div>
+        </div>
+        <div class="cards__card">
+            <img class="cards__card-img" src="./imges/imagenes/card-4.png" alt="card 4">
+            <div class="cards__card-container-text">
+                <h4 class="cards__card-title">Historias de <span class="cards__card-title--yellow">Starburks</span></h4>
+                <p class="cards__card-description">Descrubra nuestra empresa y nuestra historia.</p>
+                <a href="#" class="cards__card-btn">Más Informacion</a>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
